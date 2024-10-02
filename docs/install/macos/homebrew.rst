@@ -17,9 +17,9 @@
     :open:
     :color: info
 
-    .. raw:: html 
-    
-        <iframe src="https://panopto.dtu.dk/Panopto/Pages/Embed.aspx?id=52941d0b-cc65-42a0-9ceb-b1ce00897b51" height="405" width=100% style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
+    .. raw:: html
+
+        <iframe src="https://panopto.dtu.dk/Panopto/Pages/Embed.aspx?id=8c88a2cb-25a5-485a-8131-b1dc00bb2dee" height="405" width=100% style="border: 1px solid #464646;" allowfullscreen allow="autoplay"></iframe>
 
 
 .. _install-python-macos-homebrew:
@@ -35,8 +35,10 @@ Step 1: Install Homebrew
     #.  
         The Homebrew website will ask you to open a terminal.
         Find the :menuselection:`Terminal` using your Spotlight search (:kbd:`Command+Space`) and press :kbd:`Enter`.
-        You might get asked for permissions.
-        Please do this, note that your password will not be shown while typing it. 
+        You might get asked several times for your password to grant permissions.
+       
+        **Note**: your password will not be shown while typing it.
+
         Do *not* close the terminal once the installation script has finished.
 
         .. image:: /images/install/MacOS-SpotlightSearch-Terminal.png
@@ -73,41 +75,41 @@ Step 2: Install Miniconda and Python
    Installs all packages required for the 1\ :sup:`st` year
    Polytechnical Foundation courses at DTU. 
 
-   #. 
-       Close the previously used :menuselection:`Terminal`,
-       and open up a new :menuselection:`Terminal` using
-       Spotlight search (:kbd:`Command+Space` and search for ``Terminal``).
+   #.
+      Close the previously used :menuselection:`Terminal`,
+      and open up a new :menuselection:`Terminal` using
+      Spotlight search (:kbd:`Command+Space` and search for ``Terminal``).
 
    #.
-       Paste the following code in the Terminal and press :kbd:`Enter`.
+      Paste the following code in the Terminal and press :kbd:`Enter`.
 
-       .. code:: bash
+      .. code:: bash
 
-          brew install --cask miniconda
-
-   #.
-       Paste the following code in the Terminal and press :kbd:`Enter`.
-
-       .. code:: bash
-
-          conda init "$(basename "${SHELL}")"
-          eval "$(conda "shell.$(basename "${SHELL}")" hook)"
+         brew install --cask miniconda
 
    #.
-       Run the following command in the Terminal by copying, pasting and pressing :kbd:`Enter`:
+      Paste the following code in the Terminal and press :kbd:`Enter`.
 
-       .. code:: bash
+      .. code:: bash
 
-          conda config --add channels conda-forge ; conda config --remove channels defaults
-
-       .. include:: /_rst_includes/tip-copy.rst
+         conda init "$(basename "${SHELL}")"
+         eval "$(conda "shell.$(basename "${SHELL}")" hook)"
 
    #.
-       Run the following command in the Terminal by copying, pasting and pressing :kbd:`Enter`:
+      Run the following command in the Terminal by copying, pasting and pressing :kbd:`Enter`:
 
-       .. code:: bash
+      .. code:: bash
 
-          conda install python={{ python_version_recommended }} dtumathtools pandas scipy statsmodels uncertainties -y
+         conda config --add channels conda-forge ; conda config --remove channels defaults ; conda config --set channel_priority strict
+
+      .. include:: /_rst_includes/tip-copy.rst
+
+   #.
+      Run the following command in the Terminal by copying, pasting and pressing :kbd:`Enter`:
+
+      .. code:: bash
+
+         conda install python={{ python_version_recommended }} dtumathtools pandas scipy statsmodels uncertainties -y
 
     
 .. _install-python-macos-vscode:
