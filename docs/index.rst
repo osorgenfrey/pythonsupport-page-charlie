@@ -106,4 +106,5 @@ Office hours
    learn-more/index.rst
    videos/index.rst
    uninstall/index.rst
+   commonproblems/index.rst
 
