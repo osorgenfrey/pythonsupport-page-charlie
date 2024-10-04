@@ -6,20 +6,27 @@ Common Problems with Viual Studio Code
 Here you'll find fixes for some common problems with VS Code. 
 
 
-.. dropdown:: Problem 1
+.. dropdown:: EPERM: Operation Not Permitted
     :color: muted
 
-    Problem 1
+    content
 
 
-.. dropdown:: Problem 1
+.. dropdown:: "Module not found... "
     :color: muted
 
-    Problem 2
+    content
 
 
-.. dropdown:: Problem 1
+.. dropdown:: "Module not found" - when you've installed the module
     :color: muted
 
-    Problem 3
+    content
+
+
+.. dropdown:: Missing "Run and debug" in Python files
+    :color: muted
+
+    content
+
 

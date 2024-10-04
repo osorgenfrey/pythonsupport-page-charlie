@@ -5,19 +5,54 @@ Common Problems with Python
 
 Here you'll find fixes for some common problems with Python and its installation. 
 
-.. dropdown:: Problem 1
+.. dropdown:: "The term import is not recognized..."
     :color: muted
 
-    Problem 1
+    content
 
 
-.. dropdown:: Problem 1
+.. dropdown:: "unable to initialize device PRN"
     :color: muted
 
-    Problem 2
+    content
 
 
-.. dropdown:: Problem 1
+.. dropdown:: urllib2.URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED]...
     :color: muted
 
-    Problem 3
+    content
+
+
+.. dropdown:: Local TeX Live (2023) is older than remote repository (2024)
+    :color: muted
+
+    content
+
+.. dropdown:: getting requirements to build editable did not run successfully
+    :color: muted
+
+    content
+
+
+.. dropdown:: "Error loading webview: Error: Could not register service workers: InvalidStateError: Failed to register a ServiceWorker: The document is in an invalid state"
+    :color: mouted
+
+    content 
+
+.. dropdown:: "OSError: [Error 86] Bad CPU type in executable: <path_to_cbc_binaries> "
+    :color: mouted
+
+    content 
+
+.. dropdown:: While loop getting stuck in IDLE
+    :color: mouted
+
+    content 
+
+
+.. dropdown:: "OSError: ... Error loading ....\lib\fbgemm.dll.."
+    :color: muted
+
+    content
+
+
