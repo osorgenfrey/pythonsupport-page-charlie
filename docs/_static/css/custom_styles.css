@@ -1062,3 +1062,10 @@ img.zoomed-in-image-display {
   border-radius: 0px; /* Removes border radius when overlay is displayed */
 }
 
+
+/* This centers the carrousel in the common-problems page */
+/* Center the card-carousel horizontally */
+.sd-sphinx-override.sd-cards-carousel.sd-card-cols-3.docutils {
+  display: flex;
+  justify-content: center;
+}

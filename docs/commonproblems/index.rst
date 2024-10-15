@@ -6,7 +6,7 @@ Common Problems
 Here you will find fixes for common problems related to Python, Conda, packages, environments and VS Code
 
 .. card-carousel:: 3
-
+    
     .. card:: Python
         :img-background: images/python_logo_TR.png
         :link: python
